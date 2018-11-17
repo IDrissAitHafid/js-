@@ -33,18 +33,23 @@ const ANOTHER_DATA_SOURCE = [
 // please start your implementation below:
 //
 
+var PalindromeFinder = require('./module/palindromeFinder')
+
+var palindromeFinder = new PalindromeFinder(DATA_SOURCE)
+var anotherPalindromeFinder = new PalindromeFinder(ANOTHER_DATA_SOURCE)
+
 //
 // end of your implementation
 // ----------------------------------- <
 
 // should return words extracted from DATA_SOURCE that are palindromes:
-console.log('found palindromes: ',palindromeFinder.find());
+console.log('found palindromes: ', palindromeFinder.find());
 
 // should return words extracted from DATA_SOURCE that are not palindromes:
-console.log('are not palindromes: ',palindromeFinder.findOther());
+console.log('are not palindromes: ', palindromeFinder.findOther());
 
 // should return words extracted from ANOTHER_DATA_SOURCE that are palindromes:
-console.log('found palindromes: ',anotherPalindromeFinder.find());
+console.log('found palindromes: ', anotherPalindromeFinder.find());
 
 // should return words extracted from ANOTHER_DATA_SOURCE that are not palindromes:
-console.log('are not palindromes: ',anotherPalindromeFinder.findOther());
+console.log('are not palindromes: ', anotherPalindromeFinder.findOther());

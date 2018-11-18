@@ -25,8 +25,8 @@ request.onload = function () {
 	if (request.status >= 200 && request.status < 400) {
 		data.resources.forEach(res => {
 			if (res.format == "ods") {
-				lastModifiedData.push(res.last_modified)
-				var mDate = maxDate(lastModifiedData)
+				lastModifiedData.push(res.last_modified);
+				var mDate = maxDate(lastModifiedData);
 				if (res.last_modified == mDate) {
 					result = res;
 				}
@@ -60,6 +60,10 @@ setTimeout(() => {
 	//Bonus 2
 	var newKey;
 	ileDeFranceArray.forEach(e => {
+		//for Bonus 3
+		var cDate = changeDate(e['PERIODE OUVERTURE']);
+		delete e['PERIODE OUVERTURE'];
+		e['PERIODE OUVERTURE'] = cDate;
 		Object.keys(e).forEach(key => {
 			if (key == 'ADR' || key == 'VILLE' || key == 'CP') {
 				newKey = key.toLowerCase();
@@ -92,4 +96,33 @@ var maxDate = (allDates) => {
 		}
 	});
 	return maxDt;
+}
+
+
+var changeDate = (date) => {
+	var weekDays = ['lundi', 'mardi', 'mercredi', 'jeudi', 'vendredi', 'samedi', 'dimanche'];
+	var valid = false;
+	var dateObj = {};
+	if (date != null) {
+		var str = date.split(' ');
+		if (str[0] + ' ' + str[1] == 'Ouvert du') {
+			if (str[3] == 'au') {
+				weekDays.forEach(e => {
+					if (e == str[2]) {
+						valid = true;
+					}
+					if (valid) {
+						if (str[6].includes('h') && str[8].includes('h')) {
+							dateObj[e] = str[6] + '-' + str[8];
+						}
+					}
+					if (e == str[4]) {
+						valid = false;
+					}
+
+				})
+			}
+		}
+	}
+	return dateObj;
 }

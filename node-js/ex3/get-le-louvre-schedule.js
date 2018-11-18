@@ -57,6 +57,25 @@ setTimeout(() => {
 			ileDeFranceArray.push(res);
 		}
 	})
+	//Bonus 2
+	var newKey;
+	ileDeFranceArray.forEach(e => {
+		Object.keys(e).forEach(key => {
+			if (key == 'ADR' || key == 'VILLE' || key == 'CP') {
+				newKey = key.toLowerCase();
+				e[newKey] = e[key];
+				delete e[key];
+			} else if (key == 'NOM DU MUSEE' || key == 'PERIODE OUVERTURE') {
+				newKey = key.toLowerCase();
+				newKey = newKey.replace(/(\s\w)/g, (m) => m[1].toUpperCase());
+				e[newKey] = e[key];
+				delete e[key];
+			} else if (key == 'SITWEB') {
+				e['siteWeb'] = e[key];
+				delete e[key];
+			}
+		})
+	})
 	var json = JSON.stringify(ileDeFranceArray, null, 4);
 	fs.writeFile('ileDeFranceArray.json', json, 'utf8', () => { });
 }, 3000)

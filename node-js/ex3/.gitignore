@@ -74,5 +74,3 @@ package-lock.json
 
 # Serverless directories
 .serverless
-
-museums.ods

@@ -1,0 +1,10 @@
+
+<ul class="list-inline">
+  <li class="list-inline-item" *ngFor="let zone of arrZones"><a  [routerLink]="['/clock', zone.path]">{{zone.city}} | </a> </li>
+</ul>
+
+<div style="margin:20% auto; text-align: center;">
+  <h1 class="display-1">{{time}}</h1>
+  <h2>in {{cityName}}</h2>
+</div>
+

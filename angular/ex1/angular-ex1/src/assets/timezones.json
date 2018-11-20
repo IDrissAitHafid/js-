@@ -1,0 +1,21 @@
+[{
+  "path": "paris",
+  "city": "Paris",
+  "timezone": "Europe/Paris",
+  "format": "H:mm:ss"
+},{
+  "path": "los-angeles",
+  "city": "Los Angeles",
+  "timezone": "America/Los_Angeles",
+  "format": "h:mm:ss z"
+},{
+  "path": "new-york",
+  "city": "New York",
+  "timezone": "America/New_York",
+  "format": "h:mm:ss z"
+},{
+  "path": "shanghai",
+  "city": "Shanghai",
+  "timezone": "Asia/Shanghai",
+  "format": "HH:mm:ss"
+}]

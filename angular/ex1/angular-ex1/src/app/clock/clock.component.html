@@ -1,10 +1,41 @@
 
 <ul class="list-inline">
   <li class="list-inline-item" *ngFor="let zone of arrZones"><a  [routerLink]="['/clock', zone.path]">{{zone.city}} | </a> </li>
+  <li class="list-inline-item" ><a data-toggle="modal" data-target="#myModal">Add Clock |</a> </li>
 </ul>
 
 <div style="margin:20% auto; text-align: center;">
   <h1 class="display-1">{{time}}</h1>
   <h2>in {{cityName}}</h2>
+  <button id="toggle-btn" class="btn btn-light" (click)='switchLight()'>Switch to dark</button>
 </div>
+
+ <!-- The Modal -->
+ <div class="modal" id="myModal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+
+      <!-- Modal Header -->
+      <div class="modal-header">
+        <h4 class="modal-title">Choose a timezone</h4>
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+      </div>
+
+      <!-- Modal body -->
+      <div class="modal-body">
+          <select (click)='addClock($event.target.value)'>
+              <option value='default'>select a timezone</option>
+              <option *ngFor="let timezone of timezones" value="{{timezone}}" >{{timezone}}</option>
+          </select>
+      </div>
+
+      <!-- Modal footer -->
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+      </div>
+
+    </div>
+  </div>
+</div>
+
 

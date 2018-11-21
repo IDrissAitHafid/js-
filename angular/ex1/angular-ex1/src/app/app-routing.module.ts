@@ -10,7 +10,8 @@ const routes: Routes =[
   },
   {
     path: '**',
-    component: ClockComponent,
+    redirectTo: '/clock/paris',
+    pathMatch: 'full'
   }
 ]
 

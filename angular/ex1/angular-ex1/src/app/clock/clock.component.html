@@ -1,7 +1,7 @@
 
 <ul class="list-inline">
   <li class="list-inline-item" *ngFor="let zone of arrZones"><a  [routerLink]="['/clock', zone.path]">{{zone.city}} | </a> </li>
-  <li class="list-inline-item" ><a data-toggle="modal" data-target="#myModal">Add Clock |</a> </li>
+  <li class="list-inline-item" ><a routerLink="#" data-toggle="modal" data-target="#myModal">Add Clock |</a> </li>
 </ul>
 
 <div style="margin:20% auto; text-align: center;">

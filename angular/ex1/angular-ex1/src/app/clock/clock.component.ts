@@ -22,6 +22,7 @@ export class ClockComponent implements OnInit {
   cityName;
   isDark=false;
   timezones=moment.tz.names();
+  switchValue = false;
 
   ngOnInit () {
     
@@ -50,7 +51,9 @@ export class ClockComponent implements OnInit {
           if(e.path == this.city){
             this.time = moment().tz(e.timezone).format(e.format);
             this.cityName = e.city;
-            this.switchLightWhenDown(this.time,e.format,e.timezone);
+            if(!this.switchValue){//if the button of switch light is not clicked
+              this.switchLightWhenDown(this.time,e.format,e.timezone);
+            }
           }
         })
       }
@@ -59,6 +62,7 @@ export class ClockComponent implements OnInit {
 
   //Bonus1: toggle styles with a dark background and a light background
   switchLight(){
+    this.switchValue=true;
     if(this.isDark){
       this.isDark=false;
       this.renderer.removeClass(document.body, 'dark-back');

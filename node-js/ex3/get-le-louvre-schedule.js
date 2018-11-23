@@ -52,8 +52,9 @@ setTimeout(() => {
 	var meusemData = JSON.parse(json_object);
 	meusemData.forEach(res => {
 		if (res['NOM DU MUSEE'] == 'Musée du Louvre') {
-			console.log("PERIODE D'OUVERTURE:", res['PERIODE OUVERTURE']);
-		} else if (res['NOMREG'] == 'ILE-DE-FRANCE') {//For Bonus 1
+			console.log("PERIODE D'OUVERTURE de Musée du Louvre:", res['PERIODE OUVERTURE']);
+		}
+		if (res['NOMREG'] == 'ILE-DE-FRANCE') {//For Bonus 1
 			ileDeFranceArray.push(res);
 		}
 	})
@@ -98,25 +99,44 @@ var maxDate = (allDates) => {
 	return maxDt;
 }
 
-
+//Bonus 3: convert opening hours into a usefull readable format
 var changeDate = (date) => {
 	var weekDays = ['lundi', 'mardi', 'mercredi', 'jeudi', 'vendredi', 'samedi', 'dimanche'];
-	var valid = false;
+	var days = [];
+	var hoursRegExp = /^(\d|[01]\d|2[0-3])h([0-5]\d)?\sà\s([01]\d|2[0-3])h([0-5]\d)?$/;//exple: 14h30 à 16h
 	var dateObj = {};
+	var valid = false;
 	if (date != null) {
+		date = date.replace(/[,.]/g, "");
 		var str = date.split(' ');
-		if (str[0] + ' ' + str[1] == 'Ouvert du') {
-			if (str[3] == 'au') {
+		for (i = 0; i < str.length; i++) {
+			if (weekDays.includes((str[i]))) {
+				days.push(str[i]);
+			}
+			if (i > 1) {
+				var toTest = str[i - 2] + ' ' + str[i - 1] + ' ' + str[i];
+				if (hoursRegExp.test(toTest)) {
+					days.forEach(day => {
+						dateObj[day] = str[i - 2] + '-' + str[i];
+					})
+					days = [];
+				}
+			}
+			if (str[i + 1] == 'au') {//exple mardi au samedi
 				weekDays.forEach(e => {
-					if (e == str[2]) {
+					if (e == str[i]) {
 						valid = true;
 					}
 					if (valid) {
-						if (str[6].includes('h') && str[8].includes('h')) {
-							dateObj[e] = str[6] + '-' + str[8];
+						for (j = 2; j < str.length; j++) {
+							var toTest = str[j - 2] + ' ' + str[j - 1] + ' ' + str[j];
+							if (hoursRegExp.test(toTest)) {
+								dateObj[e] = str[j - 2] + '-' + str[j];
+								days = [];
+							}
 						}
 					}
-					if (e == str[4]) {
+					if (e == str[i + 2]) {
 						valid = false;
 					}
 

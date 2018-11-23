@@ -1,3 +1,14 @@
+# Note 
+- Before testing nodeJS - exercice 3 and Angular exercice make sure to run the ```npm install``` command.
+- To run the cli script in exercice 3 of node.js type the command ```run``` followed by the day, hour to verify if the louvre museum is opened.
+If you want to look for all opened museums in a city add it as the third argument in the earliest command.
+
+Example 1 : ```run``` (this command checks if the louvre museum is opened in the current date)
+Example 2 : ```run lundi 12h30```
+Example 3 : ```run mardi 9h paris```
+
+P.S: if you use Windows make sure to type ```npm link``` on the command line to work with cli script.
+
 # Exercises instructions
 
 expectations:

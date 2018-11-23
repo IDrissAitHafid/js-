@@ -11,11 +11,11 @@
         "ville": "BIEVRES",
         "siteWeb": "www.museedelaphoto.fr",
         "periodeOuverture": {
-            "mercredi": "13h30-17h30\nAccueil",
-            "jeudi": "13h30-17h30\nAccueil",
-            "vendredi": "13h30-17h30\nAccueil",
-            "samedi": "13h30-17h30\nAccueil",
-            "dimanche": "13h30-17h30\nAccueil"
+            "mercredi": "9h30-17h30",
+            "jeudi": "9h30-17h30",
+            "vendredi": "9h30-17h30",
+            "samedi": "9h30-17h30",
+            "dimanche": "9h30-17h30"
         }
     },
     {
@@ -39,10 +39,10 @@
         "ville": "BRUNOY",
         "siteWeb": "www.brunoy.fr",
         "periodeOuverture": {
-            "mercredi": "14h-18h",
-            "jeudi": "14h-18h",
-            "vendredi": "14h-18h",
-            "samedi": "14h-18h",
+            "mercredi": "14h-17h",
+            "jeudi": "14h-17h",
+            "vendredi": "9h-12h",
+            "samedi": "14h-17h",
             "dimanche": "14h-18h"
         }
     },
@@ -129,10 +129,12 @@
         "ville": "BOULOGNE-BILLANCOURT",
         "siteWeb": "http://www.boulognebillancourt.com",
         "periodeOuverture": {
-            "mardi": "14h-18h",
-            "mercredi": "14h-18h",
-            "jeudi": "14h-18h",
-            "vendredi": "14h-18h"
+            "mardi": "11h-18h",
+            "mercredi": "11h-18h",
+            "jeudi": "11h-18h",
+            "vendredi": "14h-18h",
+            "samedi": "11h-18h",
+            "dimanche": "11h-18h"
         }
     },
     {
@@ -145,7 +147,11 @@
         "cp": "92100",
         "ville": "BOULOGNE-BILLANCOURT",
         "siteWeb": "www.boulognebillancourt.com",
-        "periodeOuverture": {}
+        "periodeOuverture": {
+            "mercredi": "10h-12h",
+            "samedi": "10h-12h",
+            "dimanche": "10h-12h"
+        }
     },
     {
         "NOMREG": "ILE-DE-FRANCE",
@@ -172,10 +178,10 @@
         "ville": "COLOMBES",
         "siteWeb": "Site de la ville - www.mairie-colombes.fr",
         "periodeOuverture": {
-            "mercredi": "14h-18h,",
-            "jeudi": "14h-18h,",
-            "vendredi": "14h-18h,",
-            "samedi": "14h-18h,"
+            "mercredi": "16h-19h",
+            "jeudi": "16h-19h",
+            "vendredi": "16h-19h",
+            "samedi": "14h-18h"
         }
     },
     {
@@ -194,7 +200,8 @@
             "jeudi": "10h30-18h",
             "vendredi": "10h30-18h",
             "samedi": "10h30-18h",
-            "dimanche": "10h30-18h"
+            "dimanche": "10h30-18h",
+            "lundi": "10h30-18h"
         }
     },
     {
@@ -222,9 +229,11 @@
         "ville": "ISSY-LES-MOULINEAUX",
         "siteWeb": "http://www.museecarteajouer.com/",
         "periodeOuverture": {
-            "mercredi": "11h-17h,",
-            "jeudi": "11h-17h,",
-            "vendredi": "11h-17h,"
+            "mercredi": "13h-18h",
+            "jeudi": "13h-18h",
+            "vendredi": "13h-18h",
+            "samedi": "13h-18h",
+            "dimanche": "13h-18h"
         }
     },
     {
@@ -256,12 +265,13 @@
         "ville": "MEUDON",
         "siteWeb": "www.meudon.fr",
         "periodeOuverture": {
-            "mardi": "14h-18h.",
-            "mercredi": "14h-18h.",
-            "jeudi": "14h-18h.",
-            "vendredi": "14h-18h.",
-            "samedi": "14h-18h.",
-            "dimanche": "14h-18h."
+            "mardi": "14h-18h",
+            "mercredi": "14h-18h",
+            "jeudi": "14h-18h",
+            "vendredi": "14h-18h",
+            "samedi": "14h-18h",
+            "dimanche": "9h-12h",
+            "lundi": "14h-18h"
         }
     },
     {
@@ -287,7 +297,15 @@
         "cp": "92500",
         "ville": "RUEIL-MALMAISON",
         "siteWeb": "www.chateau-malmaison.fr",
-        "periodeOuverture": {}
+        "periodeOuverture": {
+            "mercredi": "10h-18h",
+            "jeudi": "10h-18h",
+            "vendredi": "10h-18h",
+            "samedi": "10h-18h",
+            "dimanche": "10h-18h",
+            "lundi": "10h-18h",
+            "mardi": "10h-18h"
+        }
     },
     {
         "NOMREG": "ILE-DE-FRANCE",
@@ -334,10 +352,11 @@
         "ville": "SAINT-CLOUD",
         "siteWeb": "www.saint-cloud.fr",
         "periodeOuverture": {
-            "mercredi": "12h-18h",
-            "jeudi": "12h-18h",
-            "vendredi": "12h-18h",
-            "samedi": "12h-18h"
+            "mercredi": "14h-18h",
+            "jeudi": "14h-18h",
+            "vendredi": "14h-18h",
+            "samedi": "12h-18h",
+            "dimanche": "14h-18h"
         }
     },
     {
@@ -351,7 +370,14 @@
         "cp": "92330",
         "ville": "SCEAUX",
         "siteWeb": "http://domaine-de-sceaux.hauts-de-seine.fr/",
-        "periodeOuverture": {}
+        "periodeOuverture": {
+            "mercredi": "13h-17h",
+            "jeudi": "13h-17h",
+            "vendredi": "13h-17h",
+            "samedi": "13h-17h",
+            "dimanche": "13h-17h",
+            "lundi": "14h-18h30"
+        }
     },
     {
         "NOMREG": "ILE-DE-FRANCE",
@@ -440,7 +466,14 @@
         "cp": "75004",
         "ville": "PARIS",
         "siteWeb": "www.maisonsvictorhugo.paris.fr",
-        "periodeOuverture": {}
+        "periodeOuverture": {
+            "mardi": "10h-18h",
+            "mercredi": "10h-18h",
+            "jeudi": "10h-18h",
+            "vendredi": "10h-18h",
+            "samedi": "10h-18h",
+            "dimanche": "10h-18h"
+        }
     },
     {
         "NOMREG": "ILE-DE-FRANCE",
@@ -458,7 +491,29 @@
             "jeudi": "9h30-17h",
             "vendredi": "9h30-17h",
             "samedi": "9h30-17h",
-            "dimanche": "9h30-17h"
+            "dimanche": "9h30-17h",
+            "lundi": "9h30-17h"
+        }
+    },
+    {
+        "NOMREG": "ILE-DE-FRANCE",
+        "NOMDEP": "PARIS",
+        "TELEPHONE1": "0140205050",
+        "FAX": "0140205452",
+        "FERMETURE ANNUELLE": "le 1er janvier, le 1er mai, le 8 mai et le 25 décembre 2007",
+        "JOURS NOCTURNES": "Mercredi et vendredi jusqu'à 21h45",
+        "nomDuMusee": "Musée du Louvre",
+        "adr": "34, Quai du Louvre",
+        "cp": "75001",
+        "ville": "PARIS",
+        "siteWeb": "www.louvre.fr",
+        "periodeOuverture": {
+            "lundi": "9h-18h",
+            "jeudi": "9h-18h",
+            "samedi": "9h-18h",
+            "dimanche": "9h-18h",
+            "mercredi": "9h-22h",
+            "vendredi": "9h-22h"
         }
     },
     {
@@ -477,7 +532,8 @@
             "jeudi": "9h15-17h45",
             "vendredi": "9h15-17h45",
             "samedi": "9h15-17h45",
-            "dimanche": "9h15-17h45"
+            "dimanche": "9h15-17h45",
+            "lundi": "9h15-17h45"
         }
     },
     {
@@ -528,7 +584,8 @@
             "jeudi": "10h-17h30",
             "vendredi": "10h-17h30",
             "samedi": "10h-17h30",
-            "dimanche": "10h-17h30"
+            "dimanche": "10h-17h30",
+            "lundi": "10h-17h30"
         }
     },
     {
@@ -557,7 +614,8 @@
             "jeudi": "10h-18h",
             "vendredi": "10h-18h",
             "samedi": "10h-18h",
-            "dimanche": "10h-18h"
+            "dimanche": "10h-18h",
+            "lundi": "10h-18h"
         }
     },
     {
@@ -576,7 +634,8 @@
             "jeudi": "10h-17h",
             "vendredi": "10h-17h",
             "samedi": "10h-17h",
-            "dimanche": "10h-17h"
+            "dimanche": "10h-17h",
+            "lundi": "10h-17h"
         }
     },
     {
@@ -642,11 +701,11 @@
         "ville": "PARIS",
         "siteWeb": "www.legiondhonneur.fr",
         "periodeOuverture": {
-            "mercredi": "13h-18h.",
-            "jeudi": "13h-18h.",
-            "vendredi": "13h-18h.",
-            "samedi": "13h-18h.",
-            "dimanche": "13h-18h."
+            "mercredi": "13h-18h",
+            "jeudi": "13h-18h",
+            "vendredi": "13h-18h",
+            "samedi": "13h-18h",
+            "dimanche": "13h-18h"
         }
     },
     {
@@ -680,10 +739,12 @@
         "ville": "PARIS",
         "siteWeb": "www.histoire-immigration.fr",
         "periodeOuverture": {
-            "mardi": "10h-17h30",
-            "mercredi": "10h-17h30",
-            "jeudi": "10h-17h30",
-            "vendredi": "10h-17h30"
+            "mardi": "10h-19h",
+            "mercredi": "10h-19h",
+            "jeudi": "10h-19h",
+            "vendredi": "10h-17h30",
+            "samedi": "10h-19h",
+            "dimanche": "10h-19h"
         }
     },
     {
@@ -697,7 +758,11 @@
         "cp": "75116",
         "ville": "PARIS",
         "siteWeb": "www.musee-marine.fr",
-        "periodeOuverture": {}
+        "periodeOuverture": {
+            "mercredi": "10h-19h",
+            "jeudi": "10h-19h",
+            "vendredi": "10h-18h"
+        }
     },
     {
         "NOMREG": "ILE-DE-FRANCE",
@@ -711,10 +776,12 @@
         "ville": "PARIS",
         "siteWeb": "www.museedusport.fr",
         "periodeOuverture": {
-            "mardi": "10h-18h",
-            "mercredi": "10h-18h",
-            "jeudi": "10h-18h",
-            "vendredi": "10h-18h"
+            "mardi": "14h-18h",
+            "mercredi": "14h-18h",
+            "jeudi": "14h-18h",
+            "vendredi": "10h-18h",
+            "samedi": "14h-18h",
+            "dimanche": "14h-18h"
         }
     },
     {
@@ -772,10 +839,12 @@
         "ville": "PARIS",
         "siteWeb": "www.musee-picasso.fr",
         "periodeOuverture": {
-            "mardi": "11h30-18h,",
-            "mercredi": "11h30-18h,",
-            "jeudi": "11h30-18h,",
-            "vendredi": "11h30-18h,"
+            "mardi": "9h30-18h00",
+            "mercredi": "9h30-18h00",
+            "jeudi": "9h30-18h00",
+            "vendredi": "9h30-18h00",
+            "samedi": "9h30-18h00",
+            "dimanche": "9h30-18h00"
         }
     },
     {
@@ -790,7 +859,12 @@
         "cp": "75007",
         "ville": "PARIS",
         "siteWeb": "www.musee-orsay.fr",
-        "periodeOuverture": {}
+        "periodeOuverture": {
+            "vendredi": "9h30-21h45",
+            "samedi": "9h30-21h45",
+            "dimanche": "9h30-18h",
+            "jeudi": "9h30-21h45"
+        }
     },
     {
         "NOMREG": "ILE-DE-FRANCE",
@@ -842,11 +916,12 @@
         "ville": "PARIS",
         "siteWeb": "www.citedelamusique.fr",
         "periodeOuverture": {
-            "mardi": "12h-18h,",
-            "mercredi": "12h-18h,",
-            "jeudi": "12h-18h,",
-            "vendredi": "12h-18h,",
-            "samedi": "12h-18h,"
+            "mardi": "10h-18h",
+            "mercredi": "10h-18h",
+            "jeudi": "10h-18h",
+            "vendredi": "10h-18h",
+            "samedi": "12h-18h",
+            "dimanche": "10h-18h"
         }
     },
     {
@@ -873,7 +948,10 @@
         "cp": "75009",
         "ville": "PARIS",
         "siteWeb": "www.museefm.org",
-        "periodeOuverture": {}
+        "periodeOuverture": {
+            "vendredi": "10h-12h30",
+            "samedi": "10h-13h"
+        }
     },
     {
         "NOMREG": "ILE-DE-FRANCE",
@@ -914,7 +992,12 @@
         "cp": "75012",
         "ville": "PARIS",
         "siteWeb": "www.aquarium-portedoree.fr",
-        "periodeOuverture": {}
+        "periodeOuverture": {
+            "mardi": "10h-19h",
+            "mercredi": "10h-19h",
+            "jeudi": "10h-19h",
+            "vendredi": "10h-17h15"
+        }
     },
     {
         "NOMREG": "ILE-DE-FRANCE",
@@ -949,11 +1032,12 @@
         "ville": "PARIS",
         "siteWeb": "www.musee-moreau.fr",
         "periodeOuverture": {
-            "mercredi": "10h-12h45",
-            "jeudi": "10h-12h45",
-            "vendredi": "10h-12h45",
-            "samedi": "10h-12h45",
-            "dimanche": "10h-12h45"
+            "mercredi": "14h-17h15",
+            "jeudi": "14h-17h15",
+            "vendredi": "14h-17h15",
+            "samedi": "14h-17h15",
+            "dimanche": "14h-17h15",
+            "lundi": "10h-12h45"
         }
     },
     {
@@ -967,7 +1051,11 @@
         "cp": "75001",
         "ville": "PARIS",
         "siteWeb": "www.lesartsdecoratifs.fr/",
-        "periodeOuverture": {}
+        "periodeOuverture": {
+            "vendredi": "11h-18h",
+            "samedi": "10h-18h",
+            "dimanche": "10h-18h"
+        }
     },
     {
         "NOMREG": "ILE-DE-FRANCE",
@@ -1017,11 +1105,12 @@
         "ville": "PARIS",
         "siteWeb": "www.mahj.org",
         "periodeOuverture": {
-            "lundi": "11h-18h",
-            "mardi": "11h-18h",
-            "mercredi": "11h-18h",
-            "jeudi": "11h-18h",
-            "vendredi": "11h-18h"
+            "lundi": "10h-18h",
+            "mardi": "10h-18h",
+            "mercredi": "10h-18h",
+            "jeudi": "10h-18h",
+            "vendredi": "11h-18h",
+            "dimanche": "10h-18h"
         }
     },
     {
@@ -1036,10 +1125,12 @@
         "ville": "PARIS",
         "siteWeb": "www.lesartsdecoratifs.fr",
         "periodeOuverture": {
-            "mardi": "11h-18h,",
-            "mercredi": "11h-18h,",
-            "jeudi": "11h-18h,",
-            "vendredi": "11h-18h,"
+            "mardi": "10h-18h",
+            "mercredi": "10h-18h",
+            "jeudi": "10h-18h",
+            "vendredi": "11h-18h",
+            "samedi": "10h-18h",
+            "dimanche": "10h-18h"
         }
     },
     {
@@ -1051,12 +1142,10 @@
         "ville": "PARIS",
         "siteWeb": "http://www.palais-portedoree.fr/",
         "periodeOuverture": {
-            "mardi": "10h-17h30,",
-            "mercredi": "10h-17h30,",
-            "jeudi": "10h-17h30,",
-            "vendredi": "10h-17h30,",
-            "samedi": "10h-17h30,",
-            "dimanche": "10h-17h30,"
+            "mardi": "10h-17h30",
+            "mercredi": "10h-17h30",
+            "jeudi": "10h-17h30",
+            "vendredi": "10h-17h30"
         }
     },
     {
@@ -1076,7 +1165,8 @@
             "jeudi": "9h-18h",
             "vendredi": "9h-18h",
             "samedi": "9h-18h",
-            "dimanche": "9h-18h"
+            "dimanche": "9h-18h",
+            "lundi": "9h-18h"
         }
     },
     {
@@ -1160,7 +1250,8 @@
             "jeudi": "10h-18h",
             "vendredi": "10h-18h",
             "samedi": "10h-18h",
-            "dimanche": "10h-18h"
+            "dimanche": "10h-18h",
+            "lundi": "10h-18h"
         }
     },
     {
@@ -1187,7 +1278,13 @@
         "cp": "75116",
         "ville": "PARIS",
         "siteWeb": "http://www.citechaillot.fr/fr/musee/",
-        "periodeOuverture": {}
+        "periodeOuverture": {
+            "mercredi": "11h-19h",
+            "vendredi": "11h-19h",
+            "samedi": "11h-19h",
+            "dimanche": "11h-19h",
+            "jeudi": "11h-21h"
+        }
     },
     {
         "NOMREG": "ILE-DE-FRANCE",
@@ -1214,11 +1311,11 @@
         "ville": "PARIS",
         "siteWeb": "www.chassenature.org/",
         "periodeOuverture": {
-            "mardi": "11h-18h",
-            "mercredi": "11h-18h",
-            "jeudi": "11h-18h",
-            "vendredi": "11h-18h",
-            "samedi": "11h-18h",
+            "mardi": "11h-21h30",
+            "mercredi": "11h-21h30",
+            "jeudi": "11h-21h30",
+            "vendredi": "11h-21h30",
+            "samedi": "11h-21h30",
             "dimanche": "11h-18h"
         }
     },
@@ -1252,7 +1349,8 @@
             "jeudi": "11h-22h",
             "vendredi": "11h-22h",
             "samedi": "11h-22h",
-            "dimanche": "11h-22h"
+            "dimanche": "11h-22h",
+            "lundi": "11h-22h"
         }
     },
     {
@@ -1279,9 +1377,10 @@
         "ville": "PARIS Cedex 05",
         "siteWeb": "www.imarabe.org",
         "periodeOuverture": {
-            "mardi": "10h-18h,",
-            "mercredi": "10h-18h,",
-            "jeudi": "10h-18h,"
+            "mardi": "10h-19h",
+            "mercredi": "10h-19h",
+            "jeudi": "10h-18h",
+            "vendredi": "10h-21h30"
         }
     },
     {
@@ -1295,10 +1394,12 @@
         "ville": "PARIS Cedex 06",
         "siteWeb": "www.monnaiedeparis.fr",
         "periodeOuverture": {
-            "mardi": "11h-17h30",
-            "mercredi": "11h-17h30",
-            "jeudi": "11h-17h30",
-            "vendredi": "11h-17h30"
+            "mardi": "11h-19h",
+            "mercredi": "11h-19h",
+            "jeudi": "11h-19h",
+            "vendredi": "11h-17h30",
+            "samedi": "11h-19h",
+            "dimanche": "11h-19h"
         }
     },
     {
@@ -1313,7 +1414,14 @@
         "cp": "75343",
         "ville": "PARIS cedex 07",
         "siteWeb": "www.quaibranly.fr",
-        "periodeOuverture": {}
+        "periodeOuverture": {
+            "mardi": "11h-19h",
+            "mercredi": "11h-19h",
+            "dimanche": "11h-19h",
+            "jeudi": "11h-21h",
+            "vendredi": "11h-21h",
+            "samedi": "11h-21h"
+        }
     },
     {
         "NOMREG": "ILE-DE-FRANCE",
@@ -1347,7 +1455,13 @@
         "cp": "77630",
         "ville": "BARBIZON",
         "siteWeb": "http://musee-peintres-barbizon.fr",
-        "periodeOuverture": {}
+        "periodeOuverture": {
+            "mercredi": "14h-18h",
+            "jeudi": "14h-18h",
+            "vendredi": "14h-18h",
+            "samedi": "14h-18h",
+            "dimanche": "14h-18h"
+        }
     },
     {
         "NOMREG": "ILE-DE-FRANCE",
@@ -1360,7 +1474,10 @@
         "cp": "77500",
         "ville": "CHELLES",
         "siteWeb": "www.chelles.fr/Culture/Musee-Alfred-Bonno",
-        "periodeOuverture": {}
+        "periodeOuverture": {
+            "mercredi": "10h-12h",
+            "dimanche": "14h-17h"
+        }
     },
     {
         "NOMREG": "ILE-DE-FRANCE",
@@ -1384,7 +1501,12 @@
         "cp": "77527",
         "ville": "COULOMMIERS cedex",
         "siteWeb": "www.tourisme77.fr ou www.coulommiers.fr",
-        "periodeOuverture": {}
+        "periodeOuverture": {
+            "mercredi": "14h-17h30",
+            "vendredi": "14h-18h",
+            "samedi": "14h-17h30",
+            "dimanche": "14h-17h30"
+        }
     },
     {
         "NOMREG": "ILE-DE-FRANCE",
@@ -1396,7 +1518,14 @@
         "cp": "77700",
         "ville": "COUPVRAY",
         "siteWeb": "www.braillenet.org/louis_braille/maisnat.htm",
-        "periodeOuverture": {}
+        "periodeOuverture": {
+            "mardi": "14h-17h",
+            "mercredi": "14h-17h",
+            "jeudi": "14h-17h",
+            "vendredi": "14h-17h",
+            "samedi": "14h-17h",
+            "dimanche": "10h-12h"
+        }
     },
     {
         "NOMREG": "ILE-DE-FRANCE",
@@ -1488,7 +1617,15 @@
         "cp": "77100",
         "ville": "MEAUX",
         "siteWeb": "www.musee-bossuet.fr",
-        "periodeOuverture": {}
+        "periodeOuverture": {
+            "mercredi": "14h-17h",
+            "jeudi": "14h-17h",
+            "vendredi": "14h-17h",
+            "samedi": "14h-17h",
+            "dimanche": "10h-12h",
+            "lundi": "14h-17h",
+            "mardi": "14h-17h"
+        }
     },
     {
         "NOMREG": "ILE-DE-FRANCE",
@@ -1501,7 +1638,14 @@
         "cp": "77000",
         "ville": "MELUN",
         "siteWeb": "http://www.gendarmerie.interieur.gouv.fr/musee",
-        "periodeOuverture": {}
+        "periodeOuverture": {
+            "mercredi": "10h-18h",
+            "jeudi": "10h-18h",
+            "vendredi": "10h-18h",
+            "samedi": "10h-18h",
+            "dimanche": "10h-18h",
+            "lundi": "10h-17h30"
+        }
     },
     {
         "NOMREG": "ILE-DE-FRANCE",
@@ -1531,7 +1675,11 @@
         "cp": "77250",
         "ville": "MORET-SUR-LOING",
         "siteWeb": "http://www.ville-moret-sur-loing.fr",
-        "periodeOuverture": {}
+        "periodeOuverture": {
+            "vendredi": "14h-19h",
+            "samedi": "14h-19h",
+            "dimanche": "14h-18h"
+        }
     },
     {
         "NOMREG": "ILE-DE-FRANCE",
@@ -1544,7 +1692,10 @@
         "cp": "77140",
         "ville": "NEMOURS",
         "siteWeb": "www.musee-prehistoire-idf.fr",
-        "periodeOuverture": {}
+        "periodeOuverture": {
+            "jeudi": "10h-12h30",
+            "mardi": "10h-12h30"
+        }
     },
     {
         "NOMREG": "ILE-DE-FRANCE",
@@ -1557,9 +1708,9 @@
         "ville": "NEMOURS",
         "siteWeb": "Site de la ville - www.ville-nemours.fr",
         "periodeOuverture": {
-            "mercredi": "10h-12h30",
-            "jeudi": "10h-12h30",
-            "vendredi": "10h-12h30",
+            "mercredi": "14h-18h",
+            "jeudi": "14h-18h",
+            "vendredi": "14h-18h",
             "samedi": "10h-12h30"
         }
     },
@@ -1587,7 +1738,9 @@
         "cp": "77750",
         "ville": "SAINT-CYR-SUR-MORIN",
         "siteWeb": "Site du conseil général - www.seine-et-marne.fr - rubrique \"loisirs\"",
-        "periodeOuverture": {}
+        "periodeOuverture": {
+            "mercredi": "10h-12h30"
+        }
     },
     {
         "NOMREG": "ILE-DE-FRANCE",
@@ -1601,9 +1754,11 @@
         "ville": "SAVIGNY-LE-TEMPLE",
         "siteWeb": "Site de la ville www.savigny-le-temple.fr",
         "periodeOuverture": {
-            "mercredi": "14h-17h,",
-            "jeudi": "14h-17h,",
-            "vendredi": "14h-17h,"
+            "mercredi": "10h-12h",
+            "jeudi": "10h-12h",
+            "vendredi": "14h-17h",
+            "samedi": "15h-18h",
+            "dimanche": "15h-18h"
         }
     },
     {
@@ -1617,7 +1772,14 @@
         "cp": "77870",
         "ville": "VULAINES-SUR-SEINE",
         "siteWeb": "www.weine-et-marne.fr (rubrique \"loisirs/musées départementaux)",
-        "periodeOuverture": {}
+        "periodeOuverture": {
+            "mercredi": "14h-18h",
+            "jeudi": "14h-18h",
+            "vendredi": "14h-18h",
+            "samedi": "14h-18h",
+            "dimanche": "14h-18h",
+            "lundi": "10h-12h30"
+        }
     },
     {
         "NOMREG": "ILE-DE-FRANCE",
@@ -1630,7 +1792,14 @@
         "cp": "93352",
         "ville": "LE BOURGET Cedex",
         "siteWeb": "www.museeairespace.fr",
-        "periodeOuverture": {}
+        "periodeOuverture": {
+            "mardi": "10h-18h",
+            "mercredi": "10h-18h",
+            "jeudi": "10h-18h",
+            "vendredi": "10h-18h",
+            "samedi": "10h-18h",
+            "dimanche": "10h-17h"
+        }
     },
     {
         "NOMREG": "ILE-DE-FRANCE",
@@ -1644,10 +1813,10 @@
         "ville": "LIVRY-GARGAN",
         "siteWeb": "www.livry-gargan.fr/contenu/culture-et-loisirs/chateau-de-la-foret",
         "periodeOuverture": {
-            "mercredi": "14h-17h",
-            "jeudi": "14h-17h",
-            "vendredi": "14h-17h",
-            "samedi": "14h-17h",
+            "mercredi": "14h-18h",
+            "jeudi": "14h-18h",
+            "vendredi": "14h-18h",
+            "samedi": "14h-18h",
             "dimanche": "14h-17h"
         }
     },
@@ -1662,7 +1831,11 @@
         "cp": "93100",
         "ville": "MONTREUIL-SOUS-BOIS",
         "siteWeb": "www.museehistoirevivante.com",
-        "periodeOuverture": {}
+        "periodeOuverture": {
+            "mercredi": "14h-17h30",
+            "jeudi": "14h-17h30",
+            "vendredi": "14h-17h30"
+        }
     },
     {
         "NOMREG": "ILE-DE-FRANCE",
@@ -1676,7 +1849,12 @@
         "cp": "93200",
         "ville": "SAINT-DENIS",
         "siteWeb": "www.musee-saint-denis.fr",
-        "periodeOuverture": {}
+        "periodeOuverture": {
+            "lundi": "10h-17h30",
+            "mercredi": "10h-17h30",
+            "vendredi": "10h-17h30",
+            "jeudi": "10h-20h"
+        }
     },
     {
         "NOMREG": "ILE-DE-FRANCE",
@@ -1700,7 +1878,13 @@
         "cp": "94360",
         "ville": "BRY-SUR-MARNE",
         "siteWeb": "http://www.bry94.fr/bry/71.htm",
-        "periodeOuverture": {}
+        "periodeOuverture": {
+            "mercredi": "15h-18h",
+            "jeudi": "15h-18h",
+            "vendredi": "15h-18h",
+            "samedi": "10h-13h",
+            "dimanche": "10h-13h"
+        }
     },
     {
         "NOMREG": "ILE-DE-FRANCE",
@@ -1714,9 +1898,9 @@
         "ville": "CHAMPIGNY-SUR-MARNE Cedex",
         "siteWeb": "www.musee-resistance.com",
         "periodeOuverture": {
-            "mardi": "9h-12h30",
-            "mercredi": "9h-12h30",
-            "jeudi": "9h-12h30",
+            "mardi": "14h-18h",
+            "mercredi": "14h-18h",
+            "jeudi": "14h-18h",
             "vendredi": "9h-12h30"
         }
     },
@@ -1731,7 +1915,14 @@
         "cp": "94260",
         "ville": "FRESNES",
         "siteWeb": "www.ecomusee-valdebievre.fr",
-        "periodeOuverture": {}
+        "periodeOuverture": {
+            "mercredi": "10h-12h",
+            "samedi": "10h-12h",
+            "mardi": "14h-18h",
+            "jeudi": "14h-18h",
+            "vendredi": "14h-18h",
+            "dimanche": "14h-18h"
+        }
     },
     {
         "NOMREG": "ILE-DE-FRANCE",
@@ -1745,11 +1936,12 @@
         "ville": "LA VARENNE-SAINT-HILAIRE",
         "siteWeb": "www.saint-maur.com/musee/musee.htm",
         "periodeOuverture": {
-            "mardi": "10h-12h",
-            "mercredi": "10h-12h",
-            "jeudi": "10h-12h",
-            "vendredi": "10h-12h",
-            "samedi": "10h-12h"
+            "mardi": "14h-18h",
+            "mercredi": "14h-18h",
+            "jeudi": "14h-18h",
+            "vendredi": "14h-18h",
+            "samedi": "10h-12h",
+            "dimanche": "11h-13h"
         }
     },
     {
@@ -1762,7 +1954,12 @@
         "cp": "94700",
         "ville": "MAISONS-ALFORT",
         "siteWeb": "http://musee.vet-alfort.fr",
-        "periodeOuverture": {}
+        "periodeOuverture": {
+            "mercredi": "14h-18h",
+            "jeudi": "14h-18h",
+            "samedi": "14h-18h",
+            "dimanche": "14h-18h"
+        }
     },
     {
         "NOMREG": "ILE-DE-FRANCE",
@@ -1775,7 +1972,13 @@
         "cp": "94130",
         "ville": "NOGENT-SUR-MARNE",
         "siteWeb": "www.musee-nogentsurmarne.fr",
-        "periodeOuverture": {}
+        "periodeOuverture": {
+            "mardi": "14h-18h",
+            "mercredi": "14h-18h",
+            "jeudi": "10h-12h",
+            "dimanche": "10h-12h",
+            "samedi": "10h-12h"
+        }
     },
     {
         "NOMREG": "ILE-DE-FRANCE",
@@ -1802,10 +2005,12 @@
         "ville": "VITRY SUR SEINE",
         "siteWeb": "www.macval.fr",
         "periodeOuverture": {
-            "mardi": "10h-18h,",
-            "mercredi": "10h-18h,",
-            "jeudi": "10h-18h,",
-            "vendredi": "10h-18h,"
+            "mardi": "12h-19h",
+            "mercredi": "12h-19h",
+            "jeudi": "12h-19h",
+            "vendredi": "10h-18h",
+            "samedi": "12h-19h",
+            "dimanche": "12h-19h"
         }
     },
     {
@@ -1819,7 +2024,10 @@
         "cp": "95100",
         "ville": "ARGENTEUIL",
         "siteWeb": "Site de la ville - www.argenteuil.fr/article.php3?id_article=529",
-        "periodeOuverture": {}
+        "periodeOuverture": {
+            "mercredi": "14h-17h30",
+            "dimanche": "14h-17h30"
+        }
     },
     {
         "NOMREG": "ILE-DE-FRANCE",
@@ -1863,7 +2071,8 @@
             "jeudi": "14h-18h",
             "vendredi": "14h-18h",
             "samedi": "14h-18h",
-            "dimanche": "14h-18h"
+            "dimanche": "14h-18h",
+            "lundi": "14h-18h"
         }
     },
     {
@@ -1878,9 +2087,11 @@
         "ville": "LOUVRES",
         "siteWeb": "www.archea-roissyportedefrance.fr",
         "periodeOuverture": {
-            "mercredi": "13h30-18h",
-            "jeudi": "13h30-18h",
-            "vendredi": "13h30-18h"
+            "mercredi": "11h-18h",
+            "jeudi": "11h-18h",
+            "vendredi": "13h30-18h",
+            "samedi": "11h-18h",
+            "dimanche": "11h-18h"
         }
     },
     {
@@ -1895,11 +2106,11 @@
         "ville": "MONTMORENCY",
         "siteWeb": "http://museejjrousseau.montmorency.fr/fr",
         "periodeOuverture": {
-            "mardi": "14h-18h",
-            "mercredi": "14h-18h",
-            "jeudi": "14h-18h",
-            "vendredi": "14h-18h",
-            "samedi": "14h-18h",
+            "mardi": "10h-13h",
+            "mercredi": "10h-13h",
+            "jeudi": "10h-13h",
+            "vendredi": "10h-13h",
+            "samedi": "10h-13h",
             "dimanche": "14h-18h"
         }
     },
@@ -1915,10 +2126,10 @@
         "ville": "PONTOISE",
         "siteWeb": "Site de la ville - www.ville-Pontoise.fr",
         "periodeOuverture": {
-            "mercredi": "10h-12h30",
-            "jeudi": "10h-12h30",
-            "vendredi": "10h-12h30",
-            "samedi": "10h-12h30",
+            "mercredi": "13h30-18h",
+            "jeudi": "13h30-18h",
+            "vendredi": "13h30-18h",
+            "samedi": "13h30-18h",
             "dimanche": "10h-12h30"
         }
     },
@@ -1952,11 +2163,13 @@
         "ville": "CONFLANS-SAINTE-HONORINE",
         "siteWeb": "www.musee-batellerie-conflans.fr",
         "periodeOuverture": {
-            "lundi": "9h-12h",
-            "mardi": "9h-12h",
-            "mercredi": "9h-12h",
-            "jeudi": "9h-12h",
-            "vendredi": "9h-12h"
+            "lundi": "15h-18h",
+            "mardi": "13h30-18h",
+            "mercredi": "15h-18h",
+            "jeudi": "15h-18h",
+            "vendredi": "9h-12h",
+            "samedi": "14h-17h",
+            "dimanche": "14h-17h"
         }
     },
     {
@@ -1991,11 +2204,13 @@
         "ville": "LOUVECIENNES",
         "siteWeb": "www.musee-promenade.fr",
         "periodeOuverture": {
-            "mercredi": "14h-17h30",
-            "jeudi": "14h-17h30",
-            "vendredi": "14h-17h30",
-            "samedi": "14h-17h30",
-            "dimanche": "14h-17h30"
+            "mercredi": "9h-12h",
+            "jeudi": "9h-12h",
+            "vendredi": "9h-12h",
+            "samedi": "9h-12h",
+            "dimanche": "9h-12h",
+            "lundi": "9h-12h",
+            "mardi": "9h-12h"
         }
     },
     {
@@ -2009,7 +2224,13 @@
         "cp": "78114",
         "ville": "MAGNY-LES-HAMEAUX",
         "siteWeb": "http://www.port-royal-des-champs.eu",
-        "periodeOuverture": {}
+        "periodeOuverture": {
+            "mercredi": "10h30-18h30",
+            "jeudi": "10h30-18h30",
+            "vendredi": "10h-12h",
+            "samedi": "10h30-18h30",
+            "dimanche": "10h30-18h30"
+        }
     },
     {
         "NOMREG": "ILE-DE-FRANCE",
@@ -2022,7 +2243,14 @@
         "cp": "78200",
         "ville": "MANTES-LA-JOLIE",
         "siteWeb": "http://musee.ville-mantes-la-jolie.com",
-        "periodeOuverture": {}
+        "periodeOuverture": {
+            "lundi": "13h-18h",
+            "mercredi": "10h-18h",
+            "vendredi": "13h-18h",
+            "samedi": "10h-18h",
+            "dimanche": "13h-19h",
+            "jeudi": "10h-18h"
+        }
     },
     {
         "NOMREG": "ILE-DE-FRANCE",
@@ -2034,7 +2262,10 @@
         "cp": "78580",
         "ville": "MAULE",
         "siteWeb": "http://museeaubertmaule.free.fr/",
-        "periodeOuverture": {}
+        "periodeOuverture": {
+            "mercredi": "15h-18h",
+            "dimanche": "15h-18h"
+        }
     },
     {
         "NOMREG": "ILE-DE-FRANCE",
@@ -2059,7 +2290,12 @@
         "cp": "78490",
         "ville": "MONTFORT-L'AMAURY",
         "siteWeb": "www.ville-montfort-l-amaury.fr",
-        "periodeOuverture": {}
+        "periodeOuverture": {
+            "mardi": "14h-18h",
+            "mercredi": "14h-18h",
+            "jeudi": "14h-18h",
+            "vendredi": "10h-12h"
+        }
     },
     {
         "NOMREG": "ILE-DE-FRANCE",
@@ -2072,7 +2308,13 @@
         "cp": "78180",
         "ville": "MONTIGNY LE BRETONNEUX",
         "siteWeb": "www.museedelaville.agglo-sqy.fr",
-        "periodeOuverture": {}
+        "periodeOuverture": {
+            "mercredi": "14h-18h",
+            "jeudi": "14h-18h",
+            "vendredi": "14h-18h",
+            "samedi": "14h-18h",
+            "dimanche": "14h-18h"
+        }
     },
     {
         "NOMREG": "ILE-DE-FRANCE",
@@ -2098,11 +2340,11 @@
         "ville": "POISSY",
         "siteWeb": "site de la ville",
         "periodeOuverture": {
-            "mardi": "9h30-12h",
-            "mercredi": "9h30-12h",
-            "jeudi": "9h30-12h",
-            "vendredi": "9h30-12h",
-            "samedi": "9h30-12h",
+            "mardi": "14h-17h30",
+            "mercredi": "14h-17h30",
+            "jeudi": "14h-17h30",
+            "vendredi": "14h-17h30",
+            "samedi": "14h-17h30",
             "dimanche": "9h30-12h"
         }
     },
@@ -2117,7 +2359,13 @@
         "cp": "78120",
         "ville": "RAMBOUILLET",
         "siteWeb": "www.rambolitrain.fr",
-        "periodeOuverture": {}
+        "periodeOuverture": {
+            "mercredi": "14h-17h30",
+            "jeudi": "14h-17h30",
+            "vendredi": "14h-17h30",
+            "samedi": "14h-17h30",
+            "dimanche": "10h-12h"
+        }
     },
     {
         "NOMREG": "ILE-DE-FRANCE",
@@ -2131,9 +2379,11 @@
         "ville": "SAINT-GERMAIN-EN-LAYE",
         "siteWeb": "Site de la ville : http://saintgermainenlaye.fr/",
         "periodeOuverture": {
-            "mercredi": "14h-19h,",
-            "jeudi": "14h-19h,",
-            "vendredi": "14h-19h,"
+            "mercredi": "15h-19h",
+            "jeudi": "15h-19h",
+            "vendredi": "14h-19h",
+            "samedi": "15h-19h",
+            "dimanche": "15h-19h"
         }
     },
     {
@@ -2149,10 +2399,11 @@
         "ville": "SAINT-GERMAIN-EN-LAYE Cedex",
         "siteWeb": "www.musee-mauricedenis.fr",
         "periodeOuverture": {
-            "mardi": "10h-12h30",
-            "mercredi": "10h-12h30",
-            "jeudi": "10h-12h30",
-            "vendredi": "10h-12h30"
+            "mardi": "14h-18h30",
+            "mercredi": "14h-18h30",
+            "jeudi": "14h-18h30",
+            "vendredi": "10h-12h30",
+            "dimanche": "10h-12h30"
         }
     },
     {
@@ -2177,7 +2428,11 @@
         "cp": "78470",
         "ville": "SAINT-REMY-LES-CHEVREUSE",
         "siteWeb": "www.coubertin.fr",
-        "periodeOuverture": {}
+        "periodeOuverture": {
+            "vendredi": "13h-18h30",
+            "samedi": "13h-18h30",
+            "dimanche": "13h-18h30"
+        }
     },
     {
         "NOMREG": "ILE-DE-FRANCE",
@@ -2190,7 +2445,14 @@
         "cp": "78000",
         "ville": "VERSAILLES",
         "siteWeb": "www.musee-lambinet.com",
-        "periodeOuverture": {}
+        "periodeOuverture": {
+            "lundi": "14h-18h",
+            "mardi": "14h-18h",
+            "mercredi": "14h-18h",
+            "jeudi": "14h-18h",
+            "samedi": "14h-18h",
+            "dimanche": "14h-18h"
+        }
     },
     {
         "NOMREG": "ILE-DE-FRANCE",
@@ -2204,6 +2466,13 @@
         "cp": "78008",
         "ville": "VERSAILLES Cedex",
         "siteWeb": "www.chateauversailles.fr",
-        "periodeOuverture": {}
+        "periodeOuverture": {
+            "mardi": "9h-17h30",
+            "mercredi": "9h-17h30",
+            "jeudi": "9h-17h30",
+            "vendredi": "9h-17h30",
+            "samedi": "9h-17h30",
+            "dimanche": "9h-17h30"
+        }
     }
 ]
